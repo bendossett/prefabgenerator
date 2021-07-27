@@ -12,6 +12,9 @@ using System.Timers;
 using BuildABot;
 using Newtonsoft.Json;
 
+
+// Reference: https://stackoverflow.com/questions/6943908/using-filesystemwatcher-with-multiple-files
+
 [InitializeOnLoad]
 public class PrefabGenerator : MonoBehaviour
 {
